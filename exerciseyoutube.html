@@ -1,365 +1,354 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            .tseach{
-                border-bottom-left-radius: 50px;
-                border-top-left-radius: 50px;
-                display: inline;
-                width:536px;
-                height:35px;
-                margin-right:0px;
-                vertical-align: top;
-                font-size: 20px;
-            }
-            .bseach{
-            border-bottom-right-radius: 50px;
-            border-top-right-radius: 50px;
-            height:40px;
-            width:60px;
-            display: inline;
-            margin-left:-5px;
-            border-left: none;
-            }
-            .seach-bar{
-                justify-content: center;
-                align-items: center;
-                margin-left: 500px;
-                display: grid;
-                grid-template-columns: 545px 500px;
-            }
-            .image{
-                border-radius: 10px;
-                width:336px;
-                height:180px; 
-               
-            }
-            .dcontent p{
-                font-family:  "Roboto", "Arial", sans-serif;
-            }
-            .dcontent{
-                width: 250px;
-                display:inline-block;
-                margin-right:2px;
-            }
-            .d-vfirst{
-                display:inline-block;
-                margin-top: 30px;
-                margin-left: 20px;
-            }
-            .buttondot{
-                vertical-align: top;
-                margin-top: 0px;
-                border:none;
-                margin-top: 20px;
-                background-color: white;
-                width:40px;
-                margin-left:0px;
-            }
-            .image-avatar{
-                border-radius: 50%;
-                width:40px;
-                height:40px;
-                display:inline-block;
-                vertical-align: top;
-                margin-right:10px;
-            }
-            .davatar{
-                display:inline-block;
-                vertical-align: top;
-                margin-top: 20px;
-            }
-            .d-infor{
-                display:grid;
-                grid-template-columns: 50px 260px 1fr;
-                margin-top:0px;
-            }
-            .d-vother1{
-                display:inline-block;
-                margin-top: 30px;
-                margin-left: 20px;
-            }
-            .d-vother2{
-                display:inline-block;
-                margin-top: 30px;
-                margin-left: 20px;
-            }
-            .d-vother3{
-                display:inline-block;
-                margin-top: 30px;
-                margin-left: 20px;
-            }
-            .d-images{
-                width:100%;
-            }
-            .dvideo{
-                display:grid;
-                grid-template-columns: 350px 350px 1fr;
-                column-gap:0px;
-            }
+  <head>
+    <style>
+      .tseach {
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        display: inline;
+        width: 536px;
+        height: 35px;
+        margin-right: 0px;
+        vertical-align: top;
+        font-size: 20px;
+      }
+      .bseach {
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        height: 40px;
+        width: 60px;
+        display: inline;
+        margin-left: -5px;
+        border-left: none;
+      }
+      .search-bar {
+        display: flex;
+      }
+      .middle-section {
+        justify-content: center;
+        align-items: center;
+        margin-left: 500px;
+        display: grid;
+        grid-template-columns: 545px 500px;
+      }
+      .image {
+        border-radius: 10px;
+        width: 100%;
+      }
+      .dcontent p {
+        font-family: "Roboto", "Arial", sans-serif;
+      }
+      .dcontent {
+        width: 250px;
+        display: inline-block;
+        margin-right: 2px;
+      }
+      .d-vfirst {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+      .buttondot {
+        vertical-align: top;
+        margin-top: 0px;
+        border: none;
+        margin-top: 20px;
+        background-color: white;
+        width: 40px;
+        margin-left: 0px;
+      }
+      .image-avatar {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+      .davatar {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px;
+      }
+      .d-infor {
+        display: grid;
+        grid-template-columns: 50px 260px 1fr;
+        margin-top: 0px;
+      }
+      .d-images {
+        width: 100%;
+      }
+      .dvideo {
+        display: grid;
+        grid-template-columns: 350px 350px 1fr;
+        column-gap: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-bar">
+      <div class="left-section">left section</div>
+      <div class="middle-section">
+        <input class="tseach" type="text" placeholder="seach" />
+        <button class="bseach">
+          <span style="font-size: 25px">&#8981;</span>
+        </button>
+      </div>
+      <div class="right-seaction"></div>
+    </div>
 
-        </style>
-    </head>
-    <body>
-        
-        <div class="seach-bar">
-            <input class="tseach" type="text" placeholder="seach">
-            <button class="bseach"><span style='font-size:25px;'>&#8981;</span></button>
+    <div class="dvideo">
+      <div class="d-vfirst">
+        <div class="d-images">
+          <img class="image" src="hqdefault.avif" alt="error" />
         </div>
-        <div class ="dvideo">
-            <div class="d-vfirst">
-                <div class ="d-images">
-                    <img class ="image" src="hqdefault.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                 <div class="d3dot">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-
-
-
-            <div class ="d-vother1">
-                                <div class ="d-images">
-                    <img class ="image" src="hqdefault.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-
-
-
-            <div class ="d-vother2">
-            <div class ="d-images">
-                    <img class ="image" src="hq720.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hqdefault.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot3">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-                    
-            
-
-            <div class ="d-vother3">
-                 <div class ="d-images">
-                    <img class ="image" src="hq720 (1).avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot3">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-
-
-            
-            <div class ="d-vother1">
-                                <div class ="d-images">
-                    <img class ="image" src="hqdefault.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-
-
-
-            <div class ="d-vother1">
-                                <div class ="d-images">
-                    <img class ="image" src="hqdefault.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-
-
-            
-
-
-            <div class ="d-vother2">
-            <div class ="d-images">
-                    <img class ="image" src="hq720.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hqdefault.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot3">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-                    
-            
-
-            <div class ="d-vother3">
-                 <div class ="d-images">
-                    <img class ="image" src="hq720 (1).avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot3">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-
-
-            
-            <div class ="d-vother1">
-                                <div class ="d-images">
-                    <img class ="image" src="hqdefault.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-            
-
-            
-
-
-            <div class ="d-vother2">
-            <div class ="d-images">
-                    <img class ="image" src="hq720.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hqdefault.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot3">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-                    
-            
-
-            <div class ="d-vother3">
-                 <div class ="d-images">
-                    <img class ="image" src="hq720 (1).avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot3">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
-
-
-            
-            <div class ="d-vother1">
-                                <div class ="d-images">
-                    <img class ="image" src="hqdefault.avif" alt="error">
-                </div>
-                <div class="d-infor">
-                    <div class="davatar">
-                        <img class ="image-avatar" src="hq720.avif" alt="error">
-                    </div>
-                <div class="dcontent">
-                    <p>𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧</p>
-                    <p>Breeze Mood</p>
-                    <p>3,4M view &#183; 6 months ago</p>
-                </div>
-                <div class="d3dot">
-                <button class ="buttondot">&vellip;</button>
-                </div>
-                </div>
-            </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot">
+            <button class="buttondot">&vellip;</button>
+          </div>
         </div>
-    </body>
+      </div>
+
+      <div class="d-vother1">
+        <div class="d-images">
+          <img class="image" src="hqdefault.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother2">
+        <div class="d-images">
+          <img class="image" src="hq720.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hqdefault.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot3">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother3">
+        <div class="d-images">
+          <img class="image" src="hq720 (1).avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot3">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother1">
+        <div class="d-images">
+          <img class="image" src="hqdefault.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother1">
+        <div class="d-images">
+          <img class="image" src="hqdefault.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother2">
+        <div class="d-images">
+          <img class="image" src="hq720.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hqdefault.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot3">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother3">
+        <div class="d-images">
+          <img class="image" src="hq720 (1).avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot3">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother1">
+        <div class="d-images">
+          <img class="image" src="hqdefault.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother2">
+        <div class="d-images">
+          <img class="image" src="hq720.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hqdefault.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot3">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother3">
+        <div class="d-images">
+          <img class="image" src="hq720 (1).avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot3">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-vother1">
+        <div class="d-images">
+          <img class="image" src="hqdefault.avif" alt="error" />
+        </div>
+        <div class="d-infor">
+          <div class="davatar">
+            <img class="image-avatar" src="hq720.avif" alt="error" />
+          </div>
+          <div class="dcontent">
+            <p>
+              𝗽𝗹𝗮𝘆𝗹𝗶𝘀𝘁 ☕️ Tựa đề bài hát vừa nghe là gì? Playlist để hỏi 🎧
+            </p>
+            <p>Breeze Mood</p>
+            <p>3,4M view &#183; 6 months ago</p>
+          </div>
+          <div class="d3dot">
+            <button class="buttondot">&vellip;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
